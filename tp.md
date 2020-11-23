@@ -102,6 +102,7 @@ Dans le composant `Detail` ajouter un bouton "Partage" en dessous de la pochette
 ```
 
 Puis creez une fonction `share`:
+```
   const onShare = async () => {
     try {
       const result = await Share.share({
@@ -120,3 +121,4 @@ Puis creez une fonction `share`:
       alert(error.message);
     }
   };
+```
