@@ -46,6 +46,10 @@ export default function Home({ navigation }) {
 
 Nous allons à présent récupèrer une liste de musique depuis une API à la place du fichier `data.json` :
 ```
+  const [musics, setMusics] = useState([]);
+  
+  ...
+  
   useEffect(() => {
     const fetchMusics = async () => {
       const response = await fetch(
