@@ -111,7 +111,7 @@ Dans le composant `Detail` afficher le titre et la pochette de la musique. Pour 
 
 
 ## TP 3: Partagez vos musiques
-Dans ce TP nous allons ajouter un bouton pour pouvoir partager le titre d'une musique à une application tier, pour cela nous allons utiliser l'objet `Share` (https://reactnative.dev/docs/share).
+Dans ce TP nous allons ajouter un bouton pour pouvoir partager le titre d'une musique à une autre application, pour cela nous allons utiliser l'objet `Share` (https://reactnative.dev/docs/share).
 
 
 Creez une fonction `onShare` en utilisant `Share`:
