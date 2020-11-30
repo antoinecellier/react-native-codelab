@@ -11,7 +11,7 @@ Dans le panneau de droite choisissez `My Device` puis scannez le QR code avec l'
 ## TP 1: Créer une liste de musique
 Dans un premier temps nous allons créer une liste d'item grâce au composant `VirtualizedList`(https://reactnative.dev/docs/virtualizedlist) en utilisant les données du fichier `data.json`.
 
-Dans le fichier `components/Home.js` voici comment nous allons utiliser le composant `VirtualizedList`:
+Dans le fichier `components/Home.js` voici comment nous allons utiliser ce composant:
 ```
 export default function Home({ navigation }) {
 
@@ -44,7 +44,7 @@ export default function Home({ navigation }) {
 }
 ```
 
-Nous voulons à présent récupèrer une liste de musique depuis une API à la place du fichier `data.json` :
+Nous allons à présent récupèrer une liste de musique depuis une API à la place du fichier `data.json` :
 ```
   useEffect(() => {
     const fetchMusics = async () => {
@@ -60,7 +60,7 @@ Nous voulons à présent récupèrer une liste de musique depuis une API à la p
 ```
 
 
-## TP 2: Mettre en place la navigation pour accèder au détail d'un musqiue
+## TP 2: Mettre en place la navigation pour accèder au détail d'une musqiue
 Ajouter une nouvelle route dans le fichier `App.js`:
 ```
 <NavigationContainer>
