@@ -76,10 +76,10 @@ Ajouter une nouvelle route dans le fichier `App.js`:
 ```
 
 Quand on touche un item de la liste des musiques on veut être redirigé vers l'écran de détail de la musique.
-Nous pouvons utliser la `props` `navigation` de `react-navigation` pour changer de route :
+Nous pouvons utliser la `props` `navigation` de `react-navigation` pour changer de route et passer des paramètres.
+Ici nous voulons être redirigé vers la route `Details` avec le paramètre nommé `music` qui correspond à l'item d'une musique dans liste :
 ```
 export default function Home({ navigation }) {
-
 ...
 
     const MusicItem = ({ music }) => {
@@ -92,7 +92,7 @@ export default function Home({ navigation }) {
 ...
 ```
 
-Depuis le composant `Detail` nous aurons accès aux données de la musique grâce à la props `route`:
+Depuis le composant `component/Details.js` nous aurons accès aux données de la musique passé en paramètre grâce à la props `route`:
 ```
 export default function Detail({ route }) {
   const { music } = route.params;
