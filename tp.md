@@ -4,7 +4,7 @@
     - Android: https://play.google.com/store/apps/details?id=host.exp.exponent&hl=fr&gl=US
     - Ios: https://apps.apple.com/fr/app/expo-client/id982107779
 
-Une fois votre compte Expo crééz rendez vous sur cette url pour commencer le TP: `https://snack.expo.io/@antoinecellier/react-native-codelab-zenika---step-0`.
+Une fois votre compte Expo crééz rendez vous sur cette url pour commencer le TP: https://snack.expo.io/@antoinecellier/react-native-codelab-zenika---step-0
 
 Dans le panneau de droite choisissez `My Device` puis scannez le QR code avec l'application Expo installé sur votre smartphone.
 
